@@ -116,7 +116,7 @@ a{
 }
 
 #hero{
-    background-image:url(images/img4.jpg) ;
+    background-image:url(./img4.jpg) ;
     height: 90vh;
     width: 100%;
     background-size: cover;
