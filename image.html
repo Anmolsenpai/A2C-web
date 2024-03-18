@@ -99,12 +99,48 @@
 </section>
 
 
- <section id="pagination" class="section-p1">
-  <a  class="active" href="#">1</a>
-  <a href="#"onclick="window.location.href='image2.html';">2</a>
-  <a href="#">=><i class="fal fa-long-arrow-alt-right"></i></a>
- </section>
-
+<section>
+<head>
+	<title>Pagination</title>
+	<style>
+		.pagination {
+			display: flex;
+			list-style-type: none;
+			padding: 0;
+			justify-content: center;
+			margin: 20px 0;
+		}
+		.page-item {
+			margin: 0 5px;
+		}
+		.page-link {
+			display: inline-block;
+			padding: 5px 10px;
+			background-color: #f5f5f5;
+			border-radius: 5px;
+			text-decoration: none;
+			color: #333;
+		}
+		.page-item.active .page-link {
+			background-color: #4CAF50;
+			color: white;
+		}
+		.page-link:hover {
+			background-color: #ddd;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<ul class="pagination">
+		<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+		<li class="page-item active"><a class="page-link" href="#">1</a></li>
+		<li class="page-item"><a class="page-link" href="#">2</a></li>
+		<li class="page-item"><a class="page-link" href="#">3</a></li>
+		<li class="page-item"><a class="page-link" href="#">Next</a></li>
+	</ul>
+</body>
+</section>
  
   <div class="copyright">
     <p>@2024,A2C Web</p>
