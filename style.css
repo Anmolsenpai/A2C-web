@@ -385,7 +385,30 @@ a{
     background-size: cover;
     background-position: center;
 }
+#banner1 h4{
+    color:#fff;
+    font-size: 16px;
+}
+#banner1 h2{
+    color:#fff;
+    font-size: 70px;
+    padding: 10px 0;
+}
+#banner1 h2 span{
+    color:#000;
+}
+#banner1 button:hover{
+    background: #088178;
+    color: #fff;
+}
 
+
+
+
+
+
+
+    
 #banner h4{
     color:#fff;
     font-size: 16px;
