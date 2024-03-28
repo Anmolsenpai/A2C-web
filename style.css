@@ -402,10 +402,34 @@ a{
     color: #fff;
 }
 
-
-
-
-
+#banner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url(my dress-up darling.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner2 h4{
+    color:#fff;
+    font-size: 16px;
+}
+#banner2 h2{
+    color:#fff;
+    font-size: 70px;
+    padding: 10px 0;
+}
+#banner2 h2 span{
+    color:#000;
+}
+#banner2 button:hover{
+    background: #088178;
+    color: #fff;
+}
 
 
     
